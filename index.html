@@ -27,71 +27,81 @@
         </nav>
     </div>
 
-    <section>
-        <h2 class="titulo">Diseño y desarrollo web </h2>
-        <P>
-            <img src="/images/pin.svg" alt="">
-        </P>
-        <p>Ixtapaluca xd</p>
-        <a href="#">Contactar</a>
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Diseño y desarrollo web <span>Freelancer</span></h2>
+            <P>
+                <img src="/images/pin.svg" alt="">
+                Ixtapaluca, Estado de Mexico
+            </P>
+
+            <a class="button" href="#">Contactar</a>
+        </div>
     </section>
-    <main>
+    <main class="contenedor sombra">
         <h2>Mis servicios</h2>
-        <section>
-            <h3>Diseño web</h3>
-            <img src="/images/palette.svg" alt="Diseño Web">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo officiis deleniti nihil ipsum eveniet
-                odit,
-                sapiente incidunt. Dolorum illum laudantium quidem dolore explicabo soluta blanditiis, saepe ex dolores
-                eveniet
-                quis.</p>
-        </section>
-        <section>
-            <h3>Aplicaciones web</h3>
-            <img src="images/andoid.svg" alt="Android">
-            <img src="images/apple.svg" alt="Apple">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque mollitia eligendi accusantium,
-                officia quos,
-                temporibus inventore saepe deleniti quis ut nostrum? Sit beatae id soluta ipsum odio. Cupiditate, soluta
-                voluptate.</p>
-        </section>
-        <section>
-            <h3>E-Commerce</h3>
-            <img src="images/card.svg" alt="e-commerce">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cumque ducimus, quos autem ipsa impedit animi
-                hic
-                consequatur omnis, ratione perspiciatis aut, sit odit explicabo rem vero! Aliquam, soluta dolorum.</p>
-        </section>
-    </main>
+        <div class="services">
+            <section class="servicio">
+                <h3>Diseño web</h3>
+                <div class="iconos">
+                    <img src="/images/palette.svg" alt="Diseño Web">
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo officiis deleniti nihil ipsum
+                    evenietodit.
+                </p>
+            </section>
+            <section class="servicio">
+                <h3>Aplicaciones web</h3>
+                <div class="iconos">
+                    <img src="images/andoid.svg" alt="Android">
+                    <img src="images/apple.svg" alt="Apple">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque mollitia eligendi accusantium,
+                    officia quos.</p>
+            </section>
+            <section class="servicio">
+                <h3>E-Commerce</h3>
+                <div class="iconos">
+                    <img src="images/card.svg" alt="e-commerce">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cumque ducimus, quos autem ipsa impedit
+                    animi
+                </p>
+            </section>
+        </div>
+    
     <section>
         <h2>Contacto</h2>
-        <form action="">
+        <form class="contact">
             <fieldset>
                 <legend>Concatame llenando los siguientes datos!</legend>
-                <div>
-                    <label for="">Nombre</label>
-                    <input type="text" placeholder="Nombre">
+                <div class="containerField">
+                    <div class="campo">
+                        <label for="">Nombre</label>
+                        <input class="input-text" type="text" placeholder="Nombre">
+                    </div>
+                    <div class="campo">
+                        <label for="">Telefono</label>
+                        <input class="input-text" type="tel" placeholder="Numero de telefono">
+                    </div>
+                    <div class="campo">
+                        <label for="">Correo</label>
+                        <input class="input-text" type="email" placeholder="Tu Correo">
+                    </div>
+                    <div class="campo">
+                        <label for="">Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
                 </div>
-                <div>
-                    <label for="">Telefono</label>
-                    <input type="tel" placeholder="Numero de telefono">
-                </div>
-                <div>
-                    <label for="">Correo</label>
-                    <input type="email" placeholder="Tu Correo">
-                </div>
-                <div>
-                    <label for="">mensaje</label>
-                    <textarea></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="Enviar">
+                <div class="enviar">
+                    <input class="button" type="submit" value="Enviar">
                 </div>
             </fieldset>
 
         </form>
     </section>
-    <footer>
+</main>
+    <footer class="footer">
         <p>Todos los derechos reservados richardod</p>
     </footer>
 </body>
